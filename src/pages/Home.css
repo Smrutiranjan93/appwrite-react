@@ -1,0 +1,42 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about {
+    height: 95vh;
+    background: linear-gradient(90deg, rgba(2,0,39,1) 0%, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 1%, rgba(3,96,115,1) 100%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    flex-direction: column;
+  }
+  
+  .aboutitem {
+    padding: 10px;
+  }
+  
+  .header {
+    font-size: 2em;
+  }
+  
+  .smallinfo {
+    font-size: 1.2em;
+  }
+  
+  .buy button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buy button:hover {
+    background-color: #0056b3;
+  }
+  
